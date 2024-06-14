@@ -2,11 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Buenard', serif;
 }
 
 .hero__section {
-  background: url(images/heroSectionBackground.png);
+  background: url(https://motionbgs.com/media/1787/elden-ring-animated.jpg);
   background-position: center;
   background-size: cover;
   color: white;
@@ -15,7 +15,7 @@
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 16px 48px;
   height: 60px;
@@ -48,17 +48,17 @@
   align-items: center;
   justify-content: center;
   height: calc(60vh - 60px);
-  gap: 32px;
-}
-
-.hero__section_logo {
-  width: 250px;
-  height: auto;
+  gap: 15px;
 }
 
 .hero__section_title {
+  font-size: 4em; /* Adjust size as needed */
+  font-weight: bold;
+}
+
+.hero__section_subtitle {
   text-align: center;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 400;
 }
 
@@ -71,22 +71,6 @@
   align-items: center;
   justify-content: center;
   width: 50%;
-}
-
-.input_container_location,
-.input_container_search {
-  padding: 5px;
-  border: none;
-  outline: none;
-}
-
-.input_container_search {
-  width: 70%;
-}
-
-.input_container_location {
-  width: 30%;
-  border-right: 2px solid #e0e0e0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -294,35 +278,31 @@
   font-size: 14px;
 }
 
-.semiContainer .right .radio__buttons_container {
+.semiContainer .right {
   display: flex;
   align-items: center;
   gap: 16px;
 }
 
-.semiContainer .right .radio__buttons_container div {
+.semiContainer .right {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
 
-.semiContainer .right .radio__buttons_container div input {
+.semiContainer .right {
   height: 15px;
   width: 15px;
   accent-color: rgb(239, 79, 95);
 }
 
-.semiContainer .right .input_container {
+.semiContainer .right {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
 
-.input_container button,
-.input_container input {
-  padding: 10px 12px;
-}
 
 .input_container input {
   border: 1.5px solid gray;
@@ -339,25 +319,12 @@
   cursor: pointer;
 }
 
-.right .download__app_container {
+.right {
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
 }
 
-.download__app_container h5 {
-  font-weight: 400;
-  color: gray;
-}
-
-.download__app_container div {
-  display: flex;
-  gap: 16px;
-}
-
-.download__app_container div img {
-  width: 35%;
-}
 
 @media only screen and (max-width: 1300px) {
   .get__the_app .semiContainer .left {
@@ -408,20 +375,6 @@
 .footer_section1 img {
   width: 120px;
   height: auto;
-}
-
-.section1__buttonContainer {
-  display: flex;
-  gap: 16px;
-}
-
-.section1__buttonContainer button {
-  padding: 5px;
-  width: 90px;
-  border: 1px solid gray;
-  background-color: transparent;
-  border-radius: 5px;
-  cursor: pointer;
 }
 
 .navigation_container {
